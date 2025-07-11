@@ -3,6 +3,7 @@ import os
 
 # Third-party imports
 import folium
+from streamlit_folium import folium_static
 import matplotlib.colors as mcolors
 import matplotlib.pyplot as plt
 import numpy as np
@@ -189,7 +190,7 @@ if uploaded_file is not None:
 
 
         st.subheader("Willingness to Pay (WTP) Heatmap")
-        st.folium(m, width=1000, height=650)
+        st.folium_static(m, width=1000, height=650)
         st.markdown('<div style="height: 1px;"></div>', unsafe_allow_html=True)
         st.write(f"WTP Range: ₱{vmin:.2f} to ₱{vmax:.2f}")
 
