@@ -4,5 +4,5 @@ numpy
 pandas
 seaborn
 streamlit 
-PIL
+Pillow
 Image
