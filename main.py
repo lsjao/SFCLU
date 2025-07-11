@@ -11,7 +11,8 @@ import pandas as pd
 import seaborn as sns
 import streamlit as st
 from PIL import Image
-
+import folium
+from streamlit_folium import st_folium, folium_static
 
 
 # Set page config
