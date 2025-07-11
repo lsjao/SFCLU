@@ -1,6 +1,5 @@
 folium
-matplotlib.colors 
-matplotlib.pyplot 
+matplotlib
 numpy
 pandas
 seaborn
