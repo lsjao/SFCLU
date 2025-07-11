@@ -167,7 +167,7 @@ if uploaded_file is not None:
         m = folium.Map(location=[center_lat, center_lon], zoom_start=13)
 
         vmin, vmax = combined_df['WTP'].min(), combined_df['WTP'].max()
-        cmap = plt.cm.get_cmap('autumn')
+        cmap = plt.colormaps['autumn']
 
 
         def get_color(wtp):
